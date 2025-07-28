@@ -1,6 +1,6 @@
 import re
 from collections import Counter
-import numpy as np
+import numpy as np  
 import matplotlib.pyplot as plt
 def calculate_hanzi_entropy(text):
     # 保留文本中的汉字字符
