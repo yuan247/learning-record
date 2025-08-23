@@ -51,8 +51,7 @@ def process_text_file_incrementally(file_path, increment_size=1024*1024):
             print(f"Total processed: {total_chars} 汉字, Entropy: {entropy}")
             print(f"Unique characters: {unique_chars}")
             print(f"Top 10 characters: {top_10_chars}")
-    dalkccjzd,m cnz
- jkcn njx,
+
     plt.figure(figsize=(10, 6))
     plt.plot(range(len(entropy_values)), entropy_values, marker='o')
     plt.xlabel('Increment Steps')
